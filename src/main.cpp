@@ -4,6 +4,7 @@
 #include "Bitonic_array.h"
 #include "Sort.h"
 #include "Search.h"
+#include "sum_Stack.h"
 
 #define FASTER ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
@@ -47,16 +48,21 @@ int main() {
 
 
 
-    vector<int>v1={1,2,3,4,3};
+    // vector<int>v1={1,2,3,4,3};
+    //
+    // circular_array circular_array;
+    // vector<int> vec;
+    // vec=circular_array.solve(v1);
+    // for (auto i : vec) {
+    //     cout<<i<<" ";
+    // }
+    //
 
-    circular_array circular_array;
-    vector<int> vec;
-    vec=circular_array.solve(v1);
-    for (auto i : vec) {
-        cout<<i<<" ";
-    }
-
-
+    sum_Stack stack;
+    string s;
+    cin >> s;
+    int answer=stack.Sum(s);
+    cout << answer << endl;
 
 
 
