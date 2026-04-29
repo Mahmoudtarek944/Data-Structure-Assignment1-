@@ -31,11 +31,12 @@ int Search::Binary_Search(int arr[],int size,int val ) {
 
 // O(n)  no be Sort
 int Search::Linear_Search(vector<int>& arr, int val) {
-
+    flag=false;
     for(int i=0;i<arr.size();i++) {
         Comparison++;
         if(arr[i]==val) {
-            return i;
+            flag=true;
+            return i ;
         }
     }
     return -1;

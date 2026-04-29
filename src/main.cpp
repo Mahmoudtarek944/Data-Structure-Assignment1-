@@ -12,28 +12,39 @@ using namespace std;
 
 
 
-void view() {
-    cout<<"Enter Size Array :"<<endl;
-    int n;
-    cin>>n;
 
-
-
-}
 
 
 int main() {
-    FASTER
+    // FASTER
     Search search;
     Bitonic_array bitonic_array;
-    int arr[4]={4, 2, 1, 3};
-    vector<int>answer=bitonic_array.Bitonic(arr,4);
-    for(int i=0;i<answer.size();i++) {
-        cout<<answer[i]<<" ";
+    int n;
+    cout << "Enter number of elements: ";
+    cin >> n;
+
+    int arr[n];
+
+    cout << "Enter elements:";
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
     }
-    cout<<endl;
-    cout<<bitonic_array.get_Compare()<<endl;
-    cout<<bitonic_array.get_Swap()<<endl;
+    int Target;
+    cout << "Enter Target: ";
+    cin >> Target;
+    vector<int> answer = bitonic_array.Bitonic(arr, n);
+
+    cout << "--- Bitonic Array Result ---\n";
+    for(int i = 0; i < answer.size(); i++) {
+        cout << answer[i] << " ";
+    }
+    cout << endl;
+    cout << "Comparisons: " << bitonic_array.get_Compare() << endl;
+    cout << "Swaps: " << bitonic_array.get_Swap() << endl;
+    int Index=search.Linear_Search(answer,Target);
+    cout << "--- Linear Search Result ---\n";
+    cout<<"Is it available? "<<search.get_flag()<<" || "<<"Index :"<<Index;
+
 
     return 0;
 }

@@ -10,8 +10,6 @@ class Bitonic_array {
     int Compare;
 
 
-
-
     public:
     Bitonic_array():Swap(0),Compare(0){}
     vector<int> Bitonic(int arr[], int n);
