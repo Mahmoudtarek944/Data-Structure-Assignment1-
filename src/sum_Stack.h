@@ -12,4 +12,4 @@ public:
 
 
 
-#endif //SUM_STACK_H
+#endif

@@ -1,6 +1,9 @@
-
 #ifndef ROUND_ROBIN_H
 #define ROUND_ROBIN_H
+
+#include <vector>
+#include <queue>
+using namespace std;
 
 struct Process {
     int id;
@@ -13,9 +16,9 @@ struct Process {
 };
 
 class Round_Robin {
-
+public:
+    void print_queue(queue<int> q);
+    void run(int TQ, vector<Process>& v);
 };
 
-
-
-#endif //ROUND_ROBIN_H
+#endif

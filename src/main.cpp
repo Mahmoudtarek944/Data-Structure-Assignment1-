@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 #include "circular_array.h"
 #include "Bitonic_array.h"
-#include "Sort.h"
 #include "Search.h"
 #include "sum_Stack.h"
 
@@ -17,7 +16,10 @@ using namespace std;
 
 
 int main() {
-    // FASTER
+
+    // Bitonic
+
+
     // Search search;
     // Bitonic_array bitonic_array;
     // int n;
@@ -47,7 +49,7 @@ int main() {
     // cout<<"Is it available? "<<search.get_flag()<<" || "<<"Index :"<<Index;
 
 
-
+// circular_array
     // vector<int>v1={1,2,3,4,3};
     //
     // circular_array circular_array;
@@ -58,11 +60,14 @@ int main() {
     // }
     //
 
+
+
+// Sum_Stack
+
     sum_Stack stack;
     string s;
-    cin >> s;
-    int answer=stack.Sum(s);
-    cout << answer << endl;
+    getline(cin, s);
+    cout <<  stack.Sum(s) << endl;
 
 
 
