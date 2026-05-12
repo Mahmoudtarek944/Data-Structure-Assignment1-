@@ -1,0 +1,3 @@
+D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug/CMakeFiles/project2.dir
+D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

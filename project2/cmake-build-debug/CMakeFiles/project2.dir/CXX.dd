@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/project2.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/project2.dir/Emergency_Room_Priority_System.cpp.obj: dyndep
+
