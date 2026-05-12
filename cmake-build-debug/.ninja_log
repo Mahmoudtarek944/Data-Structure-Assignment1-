@@ -1,0 +1,21 @@
+# ninja log v6
+30	4439	7996738544571797	CMakeFiles/Robin.dir/Robin.cpp.obj	13a4b3743dd9d676
+42	4080	8002963384597083	CMakeFiles/problem1.dir/AVL.cpp.obj	bb0d58287e0c3abe
+1021	1195	7993204013977274	Bitonic.exe	6a884a8dc840ecb5
+13	520	7993161365963342	CMakeFiles/dsAss1.dir/P2.cpp.obj	82d6191191d52df0
+9	987	7993202294747021	CMakeFiles/dsAss1.dir/searchBitonicArray.cpp.obj	69419241cccf54b6
+42	465	8002979721897702	build.ninja	89515e15430287df
+988	1155	7993202304529713	dsAss1.exe	dc05755baa66252e
+24	1020	7993204004007716	CMakeFiles/Bitonic.dir/searchBitonicArray.cpp.obj	813410296ac2e996
+4440	4793	7996738588678561	Robin.exe	880d8bc40852b2c9
+10	2105	7993404741906738	CMakeFiles/expressionEval.dir/expressionEval.cpp.obj	ef4a5f5cdec40f6e
+2106	2196	7993404762859563	expressionEval.exe	5538d9d2263d2828
+12	3719	7995208379451984	CMakeFiles/nextElement.dir/nextElement.cpp.obj	6e2751347ea6322c
+3719	3916	7995208416523393	nextElement.exe	5f79954e6907c06c
+28	548	7994530465112598	CMakeFiles/rotatedBS.dir/rotatedBinarySearch.cpp.obj	eb66e954d8416402
+45	4591	8002979663275109	CMakeFiles/problem1.dir/main.cpp.obj	38c2c8b95f3fe4fb
+548	635	7994530470324485	rotatedBS.exe	8807e91ff5314de1
+11	2871	8002822539294014	CMakeFiles/problem1.dir/Problem1.cpp.obj	4712a56b5ecccc2f
+4592	4777	8002979708739207	problem1.exe	7fa2cc5f279dfadd
+52	4168	8002980500636854	CMakeFiles/problem1.dir/main.cpp.obj	38c2c8b95f3fe4fb
+4169	4358	8002980541807657	problem1.exe	7fa2cc5f279dfadd

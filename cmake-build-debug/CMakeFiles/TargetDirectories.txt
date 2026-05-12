@@ -1,0 +1,3 @@
+C:/Users/ramez/CLionProjects/dsAss1/cmake-build-debug/CMakeFiles/problem1.dir
+C:/Users/ramez/CLionProjects/dsAss1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ramez/CLionProjects/dsAss1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
