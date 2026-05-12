@@ -1,0 +1,32 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug",
+	"dir-cur-src" : "D:/FCAI/level2/Second Term/Data_Structure/project2",
+	"dir-top-bld" : "D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug",
+	"dir-top-src" : "D:/FCAI/level2/Second Term/Data_Structure/project2",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/FCAI/level2/Second Term/Data_Structure/project2/cmake-build-debug/CMakeFiles/project2.dir",
+	"sources" : 
+	{
+		"CMakeFiles/project2.dir/Emergency_Room_Priority_System.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/FCAI/level2/Second Term/Data_Structure/project2/Emergency_Room_Priority_System.cpp"
+		},
+		"CMakeFiles/project2.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/FCAI/level2/Second Term/Data_Structure/project2/main.cpp"
+		}
+	}
+}
